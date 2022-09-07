@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIT725 Prac4</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <nav>
+        <div class="nav-wrapper">
+            <a href="https://www.freepik.com/free-vector/cute-woman-chef-holding-cloche-food-tray-hand-drawn-logo-cartoon-art-illustration_22179672.htm#query=restaurant%20logo&position=30&from_view=search"
+                class="brand-logo"><img class="logo" src="images/company_logo.webp" alt="company_logo"></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="about.html">About</a></li>
+                <li><a href="locations.html">Locations</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="signin.html">Sign in</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="about.html">About</a></li>
+        <li><a href="locations.html">Locations</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="signin.html">Sign in</a></li>
+    </ul>
+
+    <div class="container">
+        <!-- Landing page -->
+        <div class="row">
+            <div class="col s12 center-align intro-message">
+                <h3>Week-4 SIT725</h3>
+                <p>Sed aliquid praesentium et atque fuga nam quidem sint qui natus ratione id nostrum minima aut laborum
+                    molestias. Et autem itaque non doloremque accusamus et fugit aliquid nam provident amet cum laborum
+                    animi aut vitae consequuntur eos suscipit illo.</p>
+            </div>
+
+            <div class="col s12 center-align"> <a
+                    href="https://www.freepik.com/free-vector/beautiful-chef-girl-holding-empty-plate-cartoon-illustration_11760900.htm#page=3&query=bakery%20chef%20cooking&position=6&from_view=search">
+                    <img class="responsive-img circle large-logo" src="images/chef.webp" alt="large_logo">
+                </a>
+            </div>
+
+            <!-- Modal button -->
+            <div class="col s12 center-align">
+
+                <!-- Modal Trigger -->
+                <a class="waves-effect waves-light btn modal-trigger" href="#modal1"><i
+                        class="material-icons left">shopping_basket</i>Order Now</a>
+
+                <!-- Modal Structure -->
+                <div id="modal1" class="modal">
+                    <div class="modal-content">
+                        <h4>Order Form</h4>
+                        <div class="row">
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <input id="title" type="text" class="validate">
+                                        <label for="title">Title</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <input id="image" type="text" class="validate">
+                                        <label for="image">Image</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input id="link" type="text" class="validate">
+                                        <label for="link">Link</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input id="description" type="text" class="validate">
+                                        <label for="description">Description</label>
+                                    </div>
+                                </div>
+
+                            </form>
+                            <div class="modal-footer">
+                                <button class="btn waves-effect waves-light" type="submit" id="formSubmit">Submit
+                                    <i class="material-icons right">send</i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <!-- Cards -->
+            <div class="row" id="card-list"></div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

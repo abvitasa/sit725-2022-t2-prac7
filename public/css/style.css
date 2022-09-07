@@ -1,0 +1,51 @@
+body {
+  background-color: #ef9a9a;
+  color: white;
+}
+
+ul li a {
+  color: black;
+}
+
+nav {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card-reveal p {
+  color: black;
+}
+
+.modal {
+  color: black;
+}
+
+.main-body {
+  width: 60%;
+  margin: auto;
+}
+
+.logo {
+  height: 50px;
+  margin: 4px 20px;
+}
+
+.row a img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.nav-wrapper {
+  background-color: #fce4ec;
+}
+
+.card {
+  margin: 5%;
+}
+
+.btn {
+  margin: 2%;
+  background-color: #d32f2f;
+}
