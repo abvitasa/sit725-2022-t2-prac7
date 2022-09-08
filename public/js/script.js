@@ -57,6 +57,12 @@ const addCards = (cardList) => {
   });
 };
 
+let socket = io();
+
+socket.on('number', (msg) => {
+  $('#heading').html(`Random number: ${msg}`);
+});
+
 $(document).ready(function () {
   $('.sidenav').sidenav();
   $('.modal').modal();

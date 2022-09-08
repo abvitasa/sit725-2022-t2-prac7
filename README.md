@@ -1,6 +1,6 @@
 # sit725-2022-t2-prac7
 
-This repository is for SIT725 Prac-6: [Link](https://github.com/abvitasa/sit725-2022-t2-prac7)
+This repository is for SIT725 Prac-7: [Link](https://github.com/abvitasa/sit725-2022-t2-prac7)
 
 ![deakin_logo](public/images/readme/deakin_logo.png)
 
@@ -29,9 +29,11 @@ npm run test
 
 ---
 
----
+![1](public/images/readme/1.png)
 
 ---
+
+![2](public/images/readme/2.png)
 
 ## Progress
 
